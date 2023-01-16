@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Encriptador</title>
+</head>
+<body>
+        <header>
+            <img class="logo-superior" src="/images/Logo.png" alt="">
+        </header>
+
+    <main>
+        <form action="">
+            <label for="texto-usuario">
+                <textarea class="input-text" name="textarea" id="texto-usuario" cols="30" rows="10" autocapitalize="none" autofocus required placeholder="Ingresa el Texto Aquí"></textarea>
+            </label>
+        </form>
+
+        <div class="caution">
+            <img class="caution-img" src="/images/exclamation-mark-in-a-circle.png" alt="">
+            <p class="text-caution">Solo letras minúsculas y sin acentos</p>
+        </div>
+
+        <div class="btns">
+            
+            <input class="btn-encriptar" id="texto-encriptado" type="button" value="Encriptar">
+            <input class="btn-desencriptar" id="texto-desencriptado" type="button" value="Desencriptar">
+        </div>
+
+    
+        <div class="no-message">
+
+            <picture>
+                <img class="muñeco-img" id="muñeco" src="/images/Muñeco.png" alt="">
+            </picture>
+            <!-- <p> 
+              <span class="bold-message">Ningún mensaje fue encontrado</span> <br> <br> <span class="another-text">Ingresa el texto que desees encriptar o desencriptar.</span> 
+            </p> -->
+
+            <h2 class="mensaje-uno">Ningún mensaje fue encontrado</h2>
+            
+            <form action="">
+
+                <label for="text-area">
+                   <textarea name="text-area" id="text-area" cols="30" rows="10" placeholder="Ingresa el texto que desees encriptar o desencriptar."></textarea>
+
+                   <div class="last-btn">
+                    <input class="btn-copiar" id="btn-copiar" type="button" value="Copiar">
+                </div>
+
+                </label>
+            </form>
+
+        </div>
+
+        
+        <footer>
+            Coded by <a href="#"> Azula Dev </a>.
+        </footer>
+        
+    </main>
+   
+    <script src="main.js"></script>
+</body>
+</html>
